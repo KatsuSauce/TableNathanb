@@ -1,0 +1,38 @@
+<DOCTYPE html>
+  <html lang="en-US">
+    <ul sty;e="list-style-type: squares;">
+      <li>Who like chocolate</li> 
+      <li>Who like fruit flavor</li>
+      <li>Who like both</li>
+    </ul>
+  <style>
+      table, tr, td {
+        border: 1px solid black;
+    }
+  </style> 
+    <br/>
+  <table>
+   <caption>Candy poll</captions>
+     <thead>
+        <tr>
+            <th>Chocolate</th>
+            <th>Fruit</th>
+            <th>Both</th>
+            <th> total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+             <td>20</td>
+             <td>35</td>
+             <td>24</td>
+             <td>79</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="4">they all want candy YAY</td>
+        </tr>
+      </tfoot>
+    </table>
+</html>
